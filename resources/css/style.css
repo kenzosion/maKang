@@ -20,7 +20,7 @@ html {
 }
 
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(http://www.edinburghmalaysian.co.uk/uploads/1/2/9/1/12916684/4978862.jpg?407);
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(3, 2, 45, 0.73)), url(http://www.edinburghmalaysian.co.uk/uploads/1/2/9/1/12916684/4978862.jpg?407);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -28,7 +28,7 @@ header {
 
 .hero-text-box {
     position: absolute;
-    width: 1440px;
+    width: 1140px;
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
@@ -37,4 +37,11 @@ header {
 
 h1 {
     margin:0;
+    color:#fff;
+    font-size: 240%;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    word-spacing: 4.5px;
+
 }
