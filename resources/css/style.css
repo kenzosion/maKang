@@ -20,7 +20,7 @@ html {
 }
 
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(3, 2, 45, 0.73)), url(http://www.sbs.com.au/food/sites/sbs.com.au.food/files/KC_Malaysian-laksa-2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(http://www.sbs.com.au/food/sites/sbs.com.au.food/files/KC_Malaysian-laksa-2.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -38,10 +38,26 @@ header {
 h1 {
     margin:0;
     color:#fff;
-    font-size: 240%;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    word-spacing: 4.5px;
+    font-size: 280%;
+    font-weight: 300;
 
+    letter-spacing: 1.5px;
+    word-spacing: 4px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-indent: none;
+    border-radius: 20px;
+    color:#fff;
+}
+
+.btn-full{
+    background-color: #d35400;
+}
+
+.btn-ghost{
+    border: 1px solid #d35400;
 }
