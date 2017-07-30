@@ -23,10 +23,19 @@ html {
 /*-------REUSABLE COMPONENTS---------------------------*/
 /*----------------------------------------------*/
 
-
-.row {
+.row-main {
     max-width: 1440px;
     margin: 0 auto;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+
 }
 
 /*----------------------------------------------*/
