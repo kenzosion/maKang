@@ -1,3 +1,8 @@
+/*----------------------------------------------*/
+/*-------BASIC SET UP---------------------------*/
+/*----------------------------------------------*/
+
+
 * {
     margin:0;
     padding:0;
@@ -14,10 +19,20 @@ html {
 
 }
 
+/*----------------------------------------------*/
+/*-------REUSABLE COMPONENTS---------------------------*/
+/*----------------------------------------------*/
+
+
 .row {
     max-width: 1440px;
     margin: 0 auto;
 }
+
+/*----------------------------------------------*/
+/*-------HEADER---------------------------*/
+/*----------------------------------------------*/
+
 
 header {
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url(http://www.sbs.com.au/food/sites/sbs.com.au.food/files/KC_Malaysian-laksa-2.jpg);
@@ -46,6 +61,11 @@ h1 {
     word-spacing: 4px;
 }
 
+/*----------------------------------------------*/
+/*-------BUTTON---------------------------*/
+/*----------------------------------------------*/
+
+/*
 .btn:link,
 .btn:visited {
     display: inline-block;
@@ -84,7 +104,7 @@ h1 {
 .btn-ghost:active {
     border: 1px solid #a04000;
     color:#fff;
-}
+}*/
 
 .first-button {
       background-color: #d35400;
@@ -103,7 +123,7 @@ h1 {
 
 .first-button:hover,
 .first-button:active{
-    background-color: #a04000;
+      background-color: #6d2b00;
 }
 
 .second-button {
@@ -123,5 +143,37 @@ h1 {
 
 .second-button:hover,
 .second-button:active{
-    background-color: #a04000;
+      background-color: #6d2b00;
+}
+
+nav {
+      margin-right: 30px;
+}
+
+.main-nav{
+      margin:45px;
+      float: right;
+      list-style: none;
+}
+
+.main-nav li {
+      display: inline-block;
+      /*margin-left: 40px;*/
+      margin-right: 30px;
+}
+
+
+.main-nav li a {
+      color: #fff;
+      text-decoration: none;
+      /*text-transform: uppercase;*/
+      letter-spacing: 1.5px;
+      font-size: 107%;
+      font-weight: 350;
+      padding: 8px;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+      border-bottom: 4px solid #d35400;
 }
