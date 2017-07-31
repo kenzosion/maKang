@@ -38,6 +38,18 @@ section {
 
 }
 
+.first-content {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.box {
+    padding: 1%;
+
+
+}
+
 /*----------------------------------------------*/
 /*-------HEADER---------------------------*/
 /*----------------------------------------------*/
@@ -77,6 +89,7 @@ h2 {
     letter-spacing: 1.5px;
     word-spacing: 2px;
     margin-bottom: 30px;
+    text-transform: uppercase;
 }
 
 h2:after {
@@ -86,12 +99,30 @@ h2:after {
     width: 1000px;
     margin: 0 auto;
     margin-bottom: 30px;
-    content: " ";
+    content:" ";
     margin-top: 20px;
+}
 
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+    
+}
+
+.box p {
+    font-size: 95%;
+    line-height: 145%;
 
 }
 
+.big-icon {
+    font-size: 350%;
+    display: block;
+    color: #d35400;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
 /*----------------------------------------------*/
 /*-------BUTTON---------------------------*/
 /*----------------------------------------------*/
@@ -148,7 +179,7 @@ h2:after {
       display: inline-block;
       font-size: 20px;
       font-weight: 350;
-      margin: 4px 2px;
+      margin: 4px 4px;
       cursor: pointer;
 }
 
@@ -168,7 +199,8 @@ h2:after {
       display: inline-block;
       font-size: 20px;
       font-weight: 350;
-      margin: 4px 2px;
+      margin: 4px 4px;
+      margin-left: 6px;
       cursor: pointer;
 }
 
