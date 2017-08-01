@@ -192,12 +192,13 @@ h3 {
 }
 
 .steps-box:last-child {
-    padding-left: 3%;
+    padding-left: 2%;
     margin-top: 80px;
+    width: 37%;
 }
 
 .app-screen {
-    width: 80%;
+    width: 90%;
 }
 
 .work-step {
@@ -218,7 +219,8 @@ h3 {
     padding: 5px;
     float: left;
     font-size: 150%;
-    margin-right: 25px;
+    margin-right: 20px;
+
 }
 
 
