@@ -49,6 +49,7 @@ section {
 
 .section-step {
     padding-top: 580px;
+    /*background-color: orange;*/
 }
 
 .section-features {
@@ -193,8 +194,10 @@ h3 {
 
 .steps-box:last-child {
     padding-left: 2%;
+    /*text-align: left;*/
     margin-top: 80px;
     width: 37%;
+    font-weight: 500;
 }
 
 .app-screen {
