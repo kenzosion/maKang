@@ -70,8 +70,13 @@ section {
 .box img {
     width: 100%;
     height: auto;
-    margin-bottom: 15px;
+    margin: 15px 0;
+    border: 2px solid #d35400;
+    padding: 5px;
+}
 
+.section-location {
+    background-color: #fff9f5;
 }
 /*----------------------------------------------*/
 /*-------HEADER---------------------------*/
