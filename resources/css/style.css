@@ -64,20 +64,28 @@ section {
 
 .box {
     padding: 1%;
+    /*line-height: 3;*/
 
 }
 
 .box img {
     width: 100%;
     height: auto;
-    margin: 15px 0;
-    border: 2px solid #d35400;
+    margin: 20px 0;
+    border: 10px double #d35400;
     padding: 5px;
+
 
 }
 
 .section-location {
     background-color: #ffc6a0;
+
+}
+
+.location-feature {
+    font-size: 21px;
+    /*font-weight: 400;*/
 }
 /*----------------------------------------------*/
 /*-------HEADER---------------------------*/
@@ -144,6 +152,8 @@ h3 {
     word-spacing: 3px;
 
 }
+
+
 
 .box p {
     font-size: 95%;
@@ -243,6 +253,20 @@ h3 {
     width: auto;
     margin-right: 10px;
 
+}
+
+.section-menu {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url(http://parsmedia.my/wp-content/uploads/Char-Kway-Teow-Feat-T-e1470721071114.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+}
+
+.menu {
+    color:white;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
 }
 /*.section-features{
     background-color: #ffefe4;
