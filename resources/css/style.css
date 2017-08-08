@@ -270,13 +270,16 @@ h3 {
 }
 
 @keyframes hello {
-    from {color:black;}
-    to   {color:white;}
+    from {color:black; left:0;}
+    to   {color:white; left:100px;}
 }
 
 .section-menu .menu {
     animation-name: hello;
-    animation-duration: 5s;
+    animation-duration: 10s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    position: relative;
 
 }
 
