@@ -268,6 +268,19 @@ h3 {
     word-spacing: 2px;
     letter-spacing: 1px;
 }
+
+@keyframes hello {
+    from {color:black;}
+    to   {color:white;}
+}
+
+.section-menu .menu {
+    animation-name: hello;
+    animation-duration: 5s;
+
+}
+
+
 /*.section-features{
     background-color: #ffefe4;
 }*/
