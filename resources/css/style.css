@@ -270,8 +270,8 @@ h3 {
 }
 
 @keyframes hello {
-    from {color:black; left:0;}
-    to   {color:white; left:100px;}
+    from {color:black;}
+    to   {color:white;}
 }
 
 .section-menu .menu {
@@ -280,7 +280,7 @@ h3 {
     /*animation-iteration-count: 2;
     animation-direction: alternate;*/
     position: relative;
-    animation-fill-mode: forwards;
+    /*animation-direction: alternate-reverse;*/
 }
 
 
