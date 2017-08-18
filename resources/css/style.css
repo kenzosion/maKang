@@ -99,6 +99,7 @@ header {
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url(http://www.sbs.com.au/food/sites/sbs.com.au.food/files/KC_Malaysian-laksa-2.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
 }
 
@@ -263,6 +264,7 @@ h3 {
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url(http://parsmedia.my/wp-content/uploads/Char-Kway-Teow-Feat-T-e1470721071114.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     /*height: 110vh;*/
 }
 
@@ -410,3 +412,10 @@ nav {
 .main-nav li a:active {
       border-bottom: 3px solid #d35400;
 }
+
+/*.section-reviews {
+      background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url(https://www.kcet.org/sites/kl/files/thumbnails/image/5366965410_61f93fcbbf_b_0.jpg);
+      background-size: cover;
+      background-position: center;
+
+}*/
