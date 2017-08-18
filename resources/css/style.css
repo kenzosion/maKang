@@ -441,7 +441,6 @@ blockquote {
       line-height: 145%;
       position: relative;
       margin-top: 40px;
-
 }
 
 cite {
@@ -452,17 +451,27 @@ cite {
 
 cite img {
       border-radius: 50%;
-      height: 45px;
+      height: 100px;
+      width: 100px;
       margin-right:10px;
       vertical-align: middle;
 }
 
 blockquote:before {
     content: "\201C";
-    font-size: 500%;
+    font-size: 400%;
     display: block;
     position: absolute;
     top: -5px;
     left: -5px;
-
 }
+
+/*blockquote:after {
+    content: "\201E";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+
+}*/
