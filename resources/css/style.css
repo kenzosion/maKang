@@ -259,7 +259,7 @@ h3 {
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url(http://parsmedia.my/wp-content/uploads/Char-Kway-Teow-Feat-T-e1470721071114.jpg);
     background-size: cover;
     background-position: center;
-    height: 110vh;
+    /*height: 110vh;*/
 }
 
 .menu {
