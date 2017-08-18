@@ -54,6 +54,7 @@ section {
 
 .section-features {
     margin-bottom: 30px;
+    background-color: #f4f1f0;
 }
 
 .first-content {
@@ -77,7 +78,8 @@ section {
 
 
 }
-/*
+
+
 .section-location {
     background-color: #ffc6a0;
 
@@ -87,6 +89,7 @@ section {
     font-size: 21px;*/
     /*font-weight: 400;*/
 }
+
 /*----------------------------------------------*/
 /*-------HEADER---------------------------*/
 /*----------------------------------------------*/
@@ -285,9 +288,9 @@ h3 {
 }
 
 
-/*.section-features{
-    background-color: #ffefe4;
-}*/
+.section-features{
+    background-color: #f4f1f0;
+}
 
 
 /*----------------------------------------------*/
