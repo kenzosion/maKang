@@ -395,6 +395,8 @@ nav {
       display: inline-block;
       margin-left: 30px;
       /*margin-right: 5px;*/
+      position: relative;
+
 }
 
 
@@ -413,9 +415,45 @@ nav {
       border-bottom: 3px solid #d35400;
 }
 
+.main-nav li a:hover::after {
+      content: "";
+      position: absolute;
+      bottom: 100%;
+      left: 0;
+      height: 10px;
+      width: 100%;
+      background: #444;
+      background: -webkit-linear-gradient(left, transparent 0%, #d35400 50%, transparent 100%);
+      background: -o-linear-gradient(left, transparent 0%, #d35400 50%, transparent 100%);
+      background: linear-gradient(to right, transparent 0%, #d35400 50%, transparent 100%);
+}
+
 /*.section-reviews {
       background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url(https://www.kcet.org/sites/kl/files/thumbnails/image/5366965410_61f93fcbbf_b_0.jpg);
       background-size: cover;
       background-position: center;
 
 }*/
+
+blockquote {
+      font-style: italic;
+      padding: 2%;
+      line-height: 145%;
+}
+
+cite {
+      font-size: 90%;
+      margin-top: 25px;
+      display: block;
+}
+
+cite img {
+      border-radius: 50%;
+      height: 45px;
+      margin-right:10px;
+      vertical-align: middle;
+}
+
+blockquote:before {
+
+}
