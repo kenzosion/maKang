@@ -77,14 +77,14 @@ section {
 
 
 }
-
+/*
 .section-location {
     background-color: #ffc6a0;
 
 }
 
 .location-feature {
-    font-size: 21px;
+    font-size: 21px;*/
     /*font-weight: 400;*/
 }
 /*----------------------------------------------*/
@@ -152,6 +152,7 @@ h3 {
     word-spacing: 3px;
 
 }
+
 
 
 
