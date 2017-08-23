@@ -478,5 +478,7 @@ blockquote:before {
 }*/
 
 .section-form {
-      background-color: rgb(245, 215, 193);
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url(https://static1.squarespace.com/static/55fdba5fe4b0b58aefa9c937/587eac401e5b6cd3aed3db70/587eac4b03596e2c9de05a6f/1484696653959/curry-puff.jpg?format=1000w);
+  background-size: cover;
+  background-position: center;
 }
