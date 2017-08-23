@@ -482,3 +482,7 @@ blockquote:before {
   background-size: cover;
   background-position: center;
 }
+
+#sign-up {
+      color: white;
+}
