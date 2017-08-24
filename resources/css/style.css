@@ -478,11 +478,41 @@ blockquote:before {
 }*/
 
 .section-form {
-  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url(https://i.pinimg.com/736x/e5/91/ff/e591ff9c4c5bd353ae124da804792958--malaysian-cuisine-malaysian-recipes.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url(http://pujipujirestaurant.co.uk/images/pic08.jpg);
   background-size: cover;
-  background-position: center;
+  background-attachment: fixed;
+
 }
 
 #sign-up {
       color: white;
+}
+
+.contact-form {
+      width: 60%;
+      margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+textarea, select {
+      width: 100%;
+      padding: 7px;
+      border-radius: 3px;
+}
+
+
+input[type=submit] {
+      background-color: #d35400;
+      width: 100%;
+      border:1px solid #fff;
+      color: white;
+      padding: 15px 32px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 350;
+      margin: 4px 4px;
+      cursor: pointer;
+
 }
