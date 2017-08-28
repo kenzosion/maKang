@@ -478,7 +478,7 @@ blockquote:before {
 }*/
 
 .section-form {
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(https://i0.wp.com/www.whitbitskitchen.com/wp-content/uploads/2015/11/Sambal-Shrimp-1-1.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url(https://i0.wp.com/www.whitbitskitchen.com/wp-content/uploads/2015/11/Sambal-Shrimp-1-1.jpg);
   background-size: cover;
   background-attachment: fixed;
 
@@ -499,6 +499,7 @@ textarea, select {
       width: 100%;
       padding: 7px;
       border-radius: 3px;
+      border: 1px solid rgb(228, 84, 14);
 }
 
 
