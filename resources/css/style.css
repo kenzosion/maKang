@@ -520,7 +520,10 @@ input[type=submit] {
 
 input[type=checkbox] {
       margin: 10px 5px 10px 0;
-
+      transform : scale(1.5);
+      /*height : 20px;*/
+      /*margin-right:10px;
+      margin-top:-10px;*/
 }
 
 *:focus {outline:none;}
