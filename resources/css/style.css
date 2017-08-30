@@ -481,6 +481,8 @@ blockquote:before {
   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url(https://i0.wp.com/www.whitbitskitchen.com/wp-content/uploads/2015/11/Sambal-Shrimp-1-1.jpg);
   background-size: cover;
   background-attachment: fixed;
+  color:white;
+  letter-spacing: 1.5px;
 
 }
 
