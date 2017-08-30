@@ -273,6 +273,7 @@ h3 {
     font-size: 20px;
     word-spacing: 2px;
     letter-spacing: 1px;
+
 }
 
 @keyframes hello {
@@ -518,6 +519,11 @@ input[type=submit] {
       margin: 4px 4px;
       cursor: pointer;
 
+}
+
+input[type=submit]:hover,
+input[type=submit]:active {
+      background-color: #6d2b00;
 }
 
 input[type=checkbox] {
