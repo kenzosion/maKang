@@ -118,10 +118,24 @@ h1 {
     color:#fff;
     font-size: 280%;
     font-weight: 300;
-
     letter-spacing: 1.5px;
     word-spacing: 4px;
 }
+
+@keyframes hello {
+    from {color:black;}
+    to   {color:white;}
+}
+
+h1 {
+    animation-name: hello;
+    animation-duration: 8s;
+    /*animation-iteration-count: 2;
+    animation-direction: alternate;*/
+    position: relative;
+    /*animation-direction: alternate-reverse;*/
+}
+
 
 h2 {
     font-size: 180%;
@@ -276,19 +290,19 @@ h3 {
 
 }
 
-@keyframes hello {
+/*@keyframes hello {
     from {color:black;}
     to   {color:white;}
-}
+}*/
 
-.section-menu .menu {
+/*.section-menu .menu {
     animation-name: hello;
     animation-duration: 10s;
     /*animation-iteration-count: 2;
     animation-direction: alternate;*/
-    position: relative;
+    /*position: relative;*/
     /*animation-direction: alternate-reverse;*/
-}
+}*/
 
 
 .section-features{
