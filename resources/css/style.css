@@ -48,12 +48,12 @@ section {
 }
 
 .section-step {
-    padding-top: 580px;
+    margin-top: 600px;
     /*background-color: orange;*/
 }
 
 .section-features {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     background-color: #f4f1f0;
 }
 
@@ -218,6 +218,7 @@ h3 {
 
 .section-meals {
     padding: 0;
+    margin-bottom: 10px;
     border-width: thin;
 }
 
