@@ -564,11 +564,13 @@ footer {
 .footer-nav {
       list-style: none;
       float: left;
+  
 }
 
 .social-nav {
       list-style: none;
       float: right;
+
 }
 
 .footer-nav li,
@@ -580,4 +582,9 @@ footer {
 .footer-nav li:last-child,
 .social-nav li:last-child {
       margin-right: 0;
+}
+
+.footer-nav li a,
+.social-nav li a {
+      text-decoration: none;
 }
