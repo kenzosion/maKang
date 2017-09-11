@@ -559,7 +559,7 @@ input[type=checkbox] {
 footer {
       background-color: rgb(52, 51, 54);
       height: 200px;
-
+      padding: 40px;
 }
 
 .footer-nav {
@@ -593,6 +593,7 @@ footer {
       color: #f9f5f2;
       border: 0;
       transition: color 0.2s
+
 }
 
 #contact {
@@ -605,4 +606,22 @@ footer {
 .social-nav li a:hover,
 .social-nav li a:active {
       color: #ec9962;
+}
+
+footer p {
+      text-align: center;
+      /*word-spacing: 1.5px;*/
+      font-size:90%
+      border: 2px dashed pink;
+      margin-top: 30px;
+}
+
+.social-nav li a:link,
+.social-nav li a:visited {
+      font-size: 150%;
+}
+
+.ion-social-facebook:hover {
+      color:#3b5998;
+
 }
