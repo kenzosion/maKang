@@ -40,7 +40,9 @@ html {
 .row {
     max-width: 1140px;
     margin: 0 auto;
+
 }
+
 
 section {
     padding: 80px 0;
@@ -48,7 +50,7 @@ section {
 }
 
 .section-step {
-    margin-top: 600px;
+    /*margin-top: 10px;*/
     /*background-color: orange;*/
 }
 
@@ -192,6 +194,8 @@ h3 {
 .meals-selection {
     list-style: none;
     width: 100%;
+    margin: 100%
+
 }
 
 .meals-selection li {
@@ -564,7 +568,7 @@ footer {
 .footer-nav {
       list-style: none;
       float: left;
-  
+
 }
 
 .social-nav {
@@ -584,7 +588,8 @@ footer {
       margin-right: 0;
 }
 
-.footer-nav li a,
-.social-nav li a {
+.footer-nav li a:hover
+.social-nav li a:active {
       text-decoration: none;
+
 }
