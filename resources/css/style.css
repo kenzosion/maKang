@@ -610,17 +610,17 @@ footer {
 
 footer p {
       text-align: center;
-      /*word-spacing: 1.5px;*/
+      word-spacing: 1.5px;
       font-size:90%
       border: 2px dashed pink;
       margin-top: 30px;
       color:#e0e0de;
-      letter-spacing: 1.5px;
+      letter-spacing: 1.2px;
 }
 
 .social-nav li a:link,
 .social-nav li a:visited {
-      font-size: 150%;
+      font-size: 140%;
 }
 
 .ion-social-facebook:hover {
