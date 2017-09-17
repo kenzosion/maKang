@@ -21,6 +21,9 @@
   body {
     font-size: 18px;
   }
+  section {
+    padding: 60px 0;
+  }
 
 }
 
