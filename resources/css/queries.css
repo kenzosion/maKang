@@ -16,12 +16,16 @@
 }
 
 @media only screen and (max-width: 1023px) {
-  body {
+  body {font-size: 18px;}
+  section {padding: 60px 0;}
+
+  .step-box {margin-top: 10px;}
+  .work-step {margin-bottom: 40px;}
+  .first-button .second-button {
     font-size: 18px;
+    padding: 10px 30px;
   }
-  section {
-    padding: 60px 0;
-  }
+
 
 }
 
