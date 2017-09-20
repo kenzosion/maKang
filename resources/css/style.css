@@ -43,6 +43,13 @@ html {
 
 }
 
+.stay-top {
+    position: fixed;
+    top:0;
+    right:40px;
+}
+
+
 section {
     padding: 80px 0;
 
