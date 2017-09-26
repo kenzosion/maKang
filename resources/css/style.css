@@ -647,9 +647,9 @@ footer p {
       color: #f5a835;
 }
 
-#custom {
+.custom {
     border: 1px solid white;
 }
 
-#custom:hover {
+.custom:hover {
     border: 1px solid rgb(223, 119, 11);
