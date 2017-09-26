@@ -102,7 +102,7 @@ section {
 
 
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url(http://www.sbs.com.au/food/sites/sbs.com.au.food/files/KC_Malaysian-laksa-2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url(http://www.sbs.com.au/food/sites/sbs.com.au.food/files/KC_Malaysian-laksa-2.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -116,6 +116,7 @@ header {
     left:50%;
     transform: translate(-50%, -50%);
     text-align: left;
+
 }
 
 h1 {
@@ -645,3 +646,10 @@ footer p {
 .ion-social-instagram:hover {
       color: #f5a835;
 }
+
+#custom {
+    border: 1px solid white;
+}
+
+#custom:hover {
+    border: 1px solid rgb(223, 119, 11);
