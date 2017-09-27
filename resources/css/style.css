@@ -653,3 +653,5 @@ footer p {
 
 .custom:hover {
     border: 1px solid rgb(223, 119, 11);
+    box-shadow: 2px 4px 8px rgba(242, 127, 7, 0.94);
+}
