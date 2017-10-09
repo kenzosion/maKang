@@ -564,8 +564,15 @@
 
 
 <script>
-$(document).ready(function(){
-  $('.app-screen').FadeOut();
+
+$(function(){
+
+  $('.app-screen').click(function() {
+    $(this).fadeOut(5000);
+
+  });
+
+
 });
 </script>
 
