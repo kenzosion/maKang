@@ -412,8 +412,7 @@ h3 {
 
 .main-nav li {
       display: inline-block;
-      margin-left: 30px;
-      /*margin-right: 5px;*/
+      margin-left: 45px;
       position: relative;
 
 }
@@ -546,7 +545,7 @@ input[type=submit]:active {
 
 input[type=checkbox] {
       margin: 10px 5px 10px 0;
-      transform : scale(1.5);
+      transform : scale(1.2);
       /*height : 20px;*/
       /*margin-right:10px;
       margin-top:-10px;*/
