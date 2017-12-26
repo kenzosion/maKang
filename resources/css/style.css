@@ -418,7 +418,6 @@ h3 {
 .main-nav li a {
       color: #fff;
       text-decoration: none;
-      /*text-transform: uppercase;*/
       letter-spacing: 1.5px;
       font-size: 107%;
       font-weight: 350;
@@ -594,8 +593,7 @@ footer p {
       text-align: center;
       word-spacing: 1.5px;
       font-size:90%;
-      border: 2px dashed pink;
-      margin-top: 30px;
+      margin-top: 20px;
       color:#e0e0de;
       letter-spacing: 1.2px;
 }
@@ -632,16 +630,17 @@ footer p {
             box-shadow: 2px 4px 8px rgba(242, 127, 7, 0.94);
 }
 
-.sticky {
+/*.sticky {
   position: fixed;
   top:0;
   left:0;
   width: 100%;
-  background-color: rgb(244, 231, 219);
+  background-color: #d35400;
   z-index:9999;
+  box-shadow: 0 2px 2px rgb(249, 188, 147);
 }
 
 .sticky .main-nav li a {
-      color: #fff;
-      padding: 16px 0;
-}
+      color: white;
+      padding: 10px 0;
+}*/
