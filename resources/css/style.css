@@ -46,15 +46,8 @@ body {
 
 }
 
-.stay-top {
-    position: -webkit-sticky;
-    position: sticky;
-    right:40px;
-}
-
 section {
     padding: 80px 0;
-
 }
 
 .section-step {
@@ -637,4 +630,18 @@ footer p {
     border: 1px solid rgb(223, 119, 11);
     -webkit-box-shadow: 2px 4px 8px rgba(242, 127, 7, 0.94);
             box-shadow: 2px 4px 8px rgba(242, 127, 7, 0.94);
+}
+
+.sticky {
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  background-color: rgb(244, 231, 219);
+  z-index:9999;
+}
+
+.sticky .main-nav li a {
+      color: #fff;
+      padding: 16px 0;
 }
