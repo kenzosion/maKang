@@ -399,17 +399,32 @@ h3 {
       background-color: #6d2b00;
 }
 
+.logo {
+  float:left;
+  width: 12%;
+  height: 12%;
+  margin-top: 15px;
+}
 
+.name {
+  font-style: italic;
+  float: left;
+  font-size: 180%;
+  margin-top: 100px;
+  color:rgb(251, 251, 246);
+  font-weight: 300;
+}
 
 .main-nav{
-      margin:45px;
+      margin: 45px;
+      margin-right: 0;
       float: right;
       list-style: none;
 }
 
 .main-nav li {
       display: inline-block;
-      margin-left: 45px;
+      margin-left: 35px;
       position: relative;
 
 }
@@ -644,6 +659,14 @@ footer p {
 
 .mobile-nav-icon {
   float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon i {
+  font-size: 200%;
+  color: white;
 }
 
 /*.sticky {
