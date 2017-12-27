@@ -36,6 +36,29 @@ $('a[href*="#"]')
   }
 });
 
+$('.js--wp-1').waypoint(function(){
+  $('.js--wp-1').addClass('animated fadeIn');
+}, {
+  offset: '60%'
+});
+
+$('.js--wp-2').waypoint(function(){
+  $('.js--wp-2').addClass('animated fadeInLeft');
+}, {
+  offset: '60%'
+});
+
+$('.js--wp-3').waypoint(function(){
+  $('.js--wp-3').addClass('animated pulse');
+}, {
+  offset: '60%'
+});
+
+$('.js--wp-4').waypoint(function(){
+  $('.js--wp-4').addClass('animated fadeIn');
+}, {
+  offset: '60%'
+});
 
 
 });
