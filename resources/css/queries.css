@@ -76,6 +76,11 @@
   .contact-form {
     width: 100;
   }
+  .meals-selection li {
+      display: block;
+      margin: 0 auto;
+      width: 70%;
+  }
 
 }
 }
