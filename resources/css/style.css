@@ -62,8 +62,8 @@ section {
 
 .first-content {
     line-height: 145%;
-    width: 70%;
-    margin-left: 15%;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .box {
@@ -413,10 +413,11 @@ h3 {
   margin-top: 100px;
   color:rgb(251, 251, 246);
   font-weight: 300;
+  text-shadow: 5px 5px 5px #d35400;
 }
 
 .main-nav{
-      margin: 45px;
+      margin: 70px;
       margin-right: 0;
       float: right;
       list-style: none;
