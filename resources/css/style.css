@@ -305,58 +305,9 @@ h3 {
     letter-spacing: 1px;
 
 }
-
-
-
 .section-features{
     background-color: #f4f1f0;
 }
-
-
-/*----------------------------------------------*/
-/*-------BUTTON---------------------------*/
-/*----------------------------------------------*/
-
-/*
-.btn:link,
-.btn:visited {
-    display: inline-block;
-    padding: 10px 30px;
-    font-weight: 300;
-    text-indent: none;
-    border-radius: 200px;
-    transition: background-color 0.2s, border 0.2s, color 0.2s;
-}
-
-.btn-full:link,
-.btn-full:visited {
-    background-color: #d35400;
-    border: 1px solid #d35400;
-    color:#fff;
-    margin-right: 15px;
-}
-
-.btn-ghost:link,
-.btn-ghost:visited {
-    border: 1px solid #d35400;
-    color: #d35400;
-}
-
-.btn:hover,
-.btn:active{
-    background-color: #a04000;
-}
-
-.btn-full:hover,
-.btn-full:active {
-    border: 1px solid #a04000;
-}
-
-.btn-ghost:hover,
-.btn-ghost:active {
-    border: 1px solid #a04000;
-    color:#fff;
-}*/
 
 .first-button {
       background-color: #d35400;
@@ -670,17 +621,20 @@ footer p {
   color: white;
 }
 
-/*.sticky {
-  position: fixed;
-  top:0;
-  left:0;
-  width: 100%;
-  background-color: #d35400;
-  z-index:9999;
-  box-shadow: 0 2px 2px rgb(249, 188, 147);
+.form-messages {
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 20px;
 }
 
-.sticky .main-nav li a {
-      color: white;
-      padding: 10px 0;
-}*/
+.success {
+  background-color: #d35400;
+  color: white;
+}
+
+.error {
+  background-color: rgb(246, 7, 15);
+  color: white;
+}
