@@ -620,21 +620,3 @@ footer p {
   font-size: 200%;
   color: white;
 }
-
-.form-messages {
-  width: 70%;
-  margin: 0 auto;
-  padding: 10px;
-  border-radius: 3px;
-  margin-bottom: 20px;
-}
-
-.success {
-  background-color: #d35400;
-  color: white;
-}
-
-.error {
-  background-color: rgb(246, 7, 15);
-  color: white;
-}
